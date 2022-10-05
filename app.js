@@ -5,7 +5,7 @@ const connect = require("./schemas");
 connect();
 
 app.get('/', (req, res) => {
-  res.send('항해 3주차 제출');
+  res.send('항해 3주차 제출 /api');
 });
 
 app.use(express.json());
